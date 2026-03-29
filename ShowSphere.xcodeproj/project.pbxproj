@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEF99E3E2F7780E000A04ED9 /* AirFranceInterviewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirFranceInterviewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF99E4B2F7780E100A04ED9 /* AirFranceInterviewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirFranceInterviewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF99E552F7780E100A04ED9 /* AirFranceInterviewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirFranceInterviewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF99E3E2F7780E000A04ED9 /* ShowSphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowSphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF99E4B2F7780E100A04ED9 /* ShowSphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowSphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF99E552F7780E100A04ED9 /* ShowSphereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowSphereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,9 +79,9 @@
 		CEF99E3F2F7780E000A04ED9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEF99E3E2F7780E000A04ED9 /* AirFranceInterviewTest.app */,
-				CEF99E4B2F7780E100A04ED9 /* AirFranceInterviewTestTests.xctest */,
-				CEF99E552F7780E100A04ED9 /* AirFranceInterviewTestUITests.xctest */,
+				CEF99E3E2F7780E000A04ED9 /* ShowSphere.app */,
+				CEF99E4B2F7780E100A04ED9 /* ShowSphereTests.xctest */,
+				CEF99E552F7780E100A04ED9 /* ShowSphereUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEF99E3D2F7780E000A04ED9 /* AirFranceInterviewTest */ = {
+		CEF99E3D2F7780E000A04ED9 /* ShowSphere */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEF99E5F2F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "AirFranceInterviewTest" */;
+			buildConfigurationList = CEF99E5F2F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "ShowSphere" */;
 			buildPhases = (
 				CEF99E3A2F7780E000A04ED9 /* Sources */,
 				CEF99E3B2F7780E000A04ED9 /* Frameworks */,
@@ -104,16 +104,16 @@
 			fileSystemSynchronizedGroups = (
 				CEF99E402F7780E000A04ED9 /* ShowSphere */,
 			);
-			name = AirFranceInterviewTest;
+			name = ShowSphere;
 			packageProductDependencies = (
 			);
 			productName = AirFranceInterviewTest;
-			productReference = CEF99E3E2F7780E000A04ED9 /* AirFranceInterviewTest.app */;
+			productReference = CEF99E3E2F7780E000A04ED9 /* ShowSphere.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEF99E4A2F7780E100A04ED9 /* AirFranceInterviewTestTests */ = {
+		CEF99E4A2F7780E100A04ED9 /* ShowSphereTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEF99E622F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "AirFranceInterviewTestTests" */;
+			buildConfigurationList = CEF99E622F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "ShowSphereTests" */;
 			buildPhases = (
 				CEF99E472F7780E100A04ED9 /* Sources */,
 				CEF99E482F7780E100A04ED9 /* Frameworks */,
@@ -127,16 +127,16 @@
 			fileSystemSynchronizedGroups = (
 				CEF99E4E2F7780E100A04ED9 /* ShowSphereTests */,
 			);
-			name = AirFranceInterviewTestTests;
+			name = ShowSphereTests;
 			packageProductDependencies = (
 			);
 			productName = AirFranceInterviewTestTests;
-			productReference = CEF99E4B2F7780E100A04ED9 /* AirFranceInterviewTestTests.xctest */;
+			productReference = CEF99E4B2F7780E100A04ED9 /* ShowSphereTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEF99E542F7780E100A04ED9 /* AirFranceInterviewTestUITests */ = {
+		CEF99E542F7780E100A04ED9 /* ShowSphereUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEF99E652F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "AirFranceInterviewTestUITests" */;
+			buildConfigurationList = CEF99E652F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "ShowSphereUITests" */;
 			buildPhases = (
 				CEF99E512F7780E100A04ED9 /* Sources */,
 				CEF99E522F7780E100A04ED9 /* Frameworks */,
@@ -147,11 +147,11 @@
 			dependencies = (
 				CEF99E572F7780E100A04ED9 /* PBXTargetDependency */,
 			);
-			name = AirFranceInterviewTestUITests;
+			name = ShowSphereUITests;
 			packageProductDependencies = (
 			);
 			productName = AirFranceInterviewTestUITests;
-			productReference = CEF99E552F7780E100A04ED9 /* AirFranceInterviewTestUITests.xctest */;
+			productReference = CEF99E552F7780E100A04ED9 /* ShowSphereUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CEF99E392F7780E000A04ED9 /* Build configuration list for PBXProject "AirFranceInterviewTest" */;
+			buildConfigurationList = CEF99E392F7780E000A04ED9 /* Build configuration list for PBXProject "ShowSphere" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -193,9 +193,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEF99E3D2F7780E000A04ED9 /* AirFranceInterviewTest */,
-				CEF99E4A2F7780E100A04ED9 /* AirFranceInterviewTestTests */,
-				CEF99E542F7780E100A04ED9 /* AirFranceInterviewTestUITests */,
+				CEF99E3D2F7780E000A04ED9 /* ShowSphere */,
+				CEF99E4A2F7780E100A04ED9 /* ShowSphereTests */,
+				CEF99E542F7780E100A04ED9 /* ShowSphereUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,12 +251,12 @@
 /* Begin PBXTargetDependency section */
 		CEF99E4D2F7780E100A04ED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEF99E3D2F7780E000A04ED9 /* AirFranceInterviewTest */;
+			target = CEF99E3D2F7780E000A04ED9 /* ShowSphere */;
 			targetProxy = CEF99E4C2F7780E100A04ED9 /* PBXContainerItemProxy */;
 		};
 		CEF99E572F7780E100A04ED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEF99E3D2F7780E000A04ED9 /* AirFranceInterviewTest */;
+			target = CEF99E3D2F7780E000A04ED9 /* ShowSphere */;
 			targetProxy = CEF99E562F7780E100A04ED9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -515,7 +515,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirFranceInterviewTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirFranceInterviewTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowSphere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShowSphere";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
@@ -541,7 +541,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirFranceInterviewTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirFranceInterviewTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowSphere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShowSphere";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -599,7 +599,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEF99E392F7780E000A04ED9 /* Build configuration list for PBXProject "AirFranceInterviewTest" */ = {
+		CEF99E392F7780E000A04ED9 /* Build configuration list for PBXProject "ShowSphere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEF99E5D2F7780E100A04ED9 /* Debug */,
@@ -608,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEF99E5F2F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "AirFranceInterviewTest" */ = {
+		CEF99E5F2F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "ShowSphere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEF99E602F7780E100A04ED9 /* Debug */,
@@ -617,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEF99E622F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "AirFranceInterviewTestTests" */ = {
+		CEF99E622F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "ShowSphereTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEF99E632F7780E100A04ED9 /* Debug */,
@@ -626,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEF99E652F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "AirFranceInterviewTestUITests" */ = {
+		CEF99E652F7780E100A04ED9 /* Build configuration list for PBXNativeTarget "ShowSphereUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEF99E662F7780E100A04ED9 /* Debug */,
