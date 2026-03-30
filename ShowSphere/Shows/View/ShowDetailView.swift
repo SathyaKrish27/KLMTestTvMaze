@@ -124,22 +124,6 @@ private struct DescriptionView: View {
     }
 }
 
-// MARK: - Formatter
-
-private enum ShowFormatter {
-    static func summary(_ raw: String?) -> String? {
-        guard let raw else { return nil }
-        
-        let stripped = raw.replacingOccurrences(
-            of: "<[^>]+>",
-            with: "",
-            options: .regularExpression
-        )
-        
-        return stripped.isEmpty ? nil : stripped
-    }
-}
-
 // MARK: - Platform Helpers
 
 private extension View {
