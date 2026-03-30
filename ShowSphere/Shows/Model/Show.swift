@@ -86,18 +86,6 @@ private extension Show {
     }
 }
 
-// MARK: - Helpers (Concurrency Safe)
-private enum ShowUtils {
-    
-    nonisolated static let parseStrategy = Date.ParseStrategy(
-        format: "\(year: .defaultDigits)-\(month: .twoDigits)-\(day: .twoDigits)", timeZone: .autoupdatingCurrent
-    )
-    
-    nonisolated static func parseDate(_ string: String?) -> Date? {
-        guard let string else { return nil }
-        return try? Date(string, strategy: parseStrategy)
-    }
-}
 
 extension Show {
     
